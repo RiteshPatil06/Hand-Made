@@ -1,0 +1,19 @@
+.compositions {
+  left: 100px;
+  top: 250px;
+  position: absolute;
+}
+.compositions__photo {
+  width: 10%;
+  position: absolute;
+  z-index: 10;
+  transition: all 0.2s;
+  outline-offset: 1rem;
+}
+.compositions__photo:hover {
+  z-index: 20;
+  transform: scale(1.05) translateY(-0.5rem);
+}
+.compositions:hover .compositions__photo:not(:hover) {
+  transform: scale(0.95);
+}

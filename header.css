@@ -1,0 +1,120 @@
+header {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100vw;
+  height: 7vh;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.6s;
+  padding: 10px 100px;
+  z-index: 10000;
+  background-color: rgba(255, 255, 255, 0.305);
+}
+header .logo {
+  position: absolute;
+  font-weight: normal;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 1em;
+  top: 15px;
+  left: 100px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: 0.6s;
+}
+
+header ul {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 15px;
+  left: 900px;
+  font-size: 17px;
+}
+
+header ul li {
+  position: relative;
+  list-style: none;
+}
+header ul li a {
+  position: relative;
+  margin: 0 25px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  letter-spacing: 1px;
+  font-weight: 500;
+  transition: 0.6s;
+  z-index: 1000000;
+}
+.hover1 {
+  padding-top: 10px;
+}
+.hover1:before {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #000000;
+  transform: scaleX(0);
+}
+.hover1:hover:before {
+  transform: scaleX(1);
+}
+.hover2 {
+  padding-top: 10px;
+}
+.hover2:before {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #000000;
+  transform: scaleX(0);
+}
+.hover2:hover:before {
+  transform: scaleX(1);
+}
+.hover3 {
+  padding-top: 10px;
+}
+.hover3:before {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #000000;
+  transform: scaleX(0);
+}
+.hover3:hover:before {
+  transform: scaleX(1);
+}
+.hover4 {
+  padding-top: 10px;
+}
+.hover4:before {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #000000;
+  transform: scaleX(0);
+}
+.hover4:hover:before {
+  transform: scaleX(1);
+}
+.hover5 {
+  padding-top: 10px;
+}
+.hover5:before {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #000000;
+  transform: scaleX(0);
+}
+.hover5:hover:before {
+  transform: scaleX(1);
+}

@@ -1,0 +1,75 @@
+ <!-- partial:index.partial.html -->
+  <div class="container">
+    <div class="compositions">
+      <img src="../../three-images-hover-effect/src/office-hp.jpg" alt="photo-1" class="compositions__photo compositions__photo--1">
+      <img
+        src="https://images.pexels.com/photos/2096599/pexels-photo-2096599.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        alt="photo-2" class="compositions__photo compositions__photo--2">
+      <img
+        src="https://images.pexels.com/photos/2064750/pexels-photo-2064750.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        alt="photo-3" class="compositions__photo compositions__photo--3">
+    </div>
+  </div>
+  <!-- partial -->
+  
+  
+  
+  .compositions {
+  left: 100px;
+  top: 250px;
+  position: absolute;
+}
+.compositions__photo {
+  width: 10%;
+  position: absolute;
+  z-index: 10;
+  transition: all 0.2s;
+  outline-offset: 1rem;
+}
+.compositions__photo:hover {
+  z-index: 20;
+  transform: scale(1.05) translateY(-0.5rem);
+}
+.compositions:hover .compositions__photo:not(:hover) {
+  transform: scale(0.95);
+}
+
+
+
+
+
+.compositions {
+  width: 100%;
+  margin: 5rem auto;
+  border: 1px solid blue;
+  position: relative;
+}
+.compositions__photo {
+  width: 40%;
+  position: absolute;
+  z-index: 10;
+  transition: all 0.2s;
+  outline-offset: 1rem;
+}
+.compositions__photo:hover {
+  z-index: 20;
+  transform: scale(1.05) translateY(-0.5rem);
+  outline: 0.5rem solid #55c57a;
+}
+.compositions__photo--1 {
+  top: 5rem;
+  left: 45rem;
+  height: 120rem;
+  width: 80rem;
+}
+.compositions__photo--2 {
+  top: 12.5rem;
+  left: 45rem;
+}
+.compositions__photo--3 {
+  top: 22rem;
+  left: 27rem;
+}
+.compositions:hover .compositions__photo:not(:hover) {
+  transform: scale(0.95);
+}

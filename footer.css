@@ -1,0 +1,194 @@
+.footer {
+  position: absolute;
+  width: 100vw;
+  height: 35vh;
+  top: 4700px;
+  left: 0;
+  background-color: #ffffff;
+  box-shadow: 0px 6px 10px #000000;
+}
+.lo1 {
+  position: absolute;
+  width: 1000px;
+  height: 72px;
+  left: 200px;
+  top: 100px;
+
+  font-family: Reem Kufi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 50px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.f1 {
+  position: absolute;
+  width: 61px;
+  height: 20px;
+  left: 600px;
+  top: 30px;
+  font-family: Reem Kufi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 42px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+  z-index: 100;
+}
+.f2 {
+  position: absolute;
+  width: 61px;
+  height: 20px;
+  left: 750px;
+  top: 30px;
+  font-family: Reem Kufi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 42px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #000000;
+  z-index: 100;
+}
+.f3 {
+  position: absolute;
+  width: 61px;
+  height: 20px;
+  left: 980px;
+  top: 30px;
+  font-family: Reem Kufi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 42px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+  z-index: 100;
+}
+.f4 {
+  position: absolute;
+  width: 61px;
+  height: 20px;
+  left: 1250px;
+  top: 30px;
+  font-family: Reem Kufi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 42px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+  z-index: 100;
+}
+.fp1 {
+  position: absolute;
+  width: 61px;
+  height: 20px;
+  left: 600px;
+  top: 135px;
+  font-family: Reem Kufi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+  z-index: 100;
+}
+.fp2 {
+  position: absolute;
+  width: 200px;
+  height: 20px;
+  left: 750px;
+  top: 140px;
+  font-family: Reem Kufi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+  z-index: 100;
+}
+.fp3 {
+  position: absolute;
+  width: 61px;
+  height: 20px;
+  left: 980px;
+  top: 140px;
+  font-family: Reem Kufi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+  z-index: 100;
+}
+.fp4 {
+  position: absolute;
+  width: 61px;
+  height: 20px;
+  left: 1100px;
+  top: 128px;
+  font-family: Reem Kufi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+  z-index: 100;
+}
+.fp5 {
+  position: absolute;
+  width: 61px;
+  height: 20px;
+  left: 1250px;
+  top: 140px;
+  font-family: Reem Kufi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+  z-index: 100;
+}

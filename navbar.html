@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="home.html" class="logo">H A N D   M A D E</a>
+        <ul>
+            <li><a href=""></a>Projects</li>
+            <li><a href=""></a>Expertise</li>
+            <li><a href=""></a>Firms</li>
+            <li><a href=""></a>News</li>
+            <li><a href=""></a>Contact</li>
+        </ul>
+    </header>
+</body>
+// hide nav bar not working fix it!
+  <script>
+     var header;
+     navbar = document.getElementById('navbar')
+     window.addEventListener('scroll',function(){
+        var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        if(scrollTop > header){
+            navbar.style.top='-80px';
+        }
+        else{
+            navbar.style.top='0';
+        }
+        header = sscrollTop;
+     });
+  </script>
+</body>
+</html>
